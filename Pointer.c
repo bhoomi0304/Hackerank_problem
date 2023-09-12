@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void update(int *a,int *b) {
-    // Complete this function 
+    
     int t1=*a + *b;  
     int t2=abs(*a-*b);
     *a=t1;
